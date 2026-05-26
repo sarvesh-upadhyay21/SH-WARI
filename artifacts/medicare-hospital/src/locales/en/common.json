@@ -1,0 +1,425 @@
+{
+  "lang": "en",
+  "nav": {
+    "aboutUs": "About Us",
+    "centresOfExcellence": "Centres of Excellence",
+    "patientsVisitors": "Patients & Visitors",
+    "healthInformation": "Health Information",
+    "researchAcademics": "Research & Academics",
+    "contactUs": "Contact Us",
+    "bookAppointment": "Book Appointment",
+    "myHealthRecords": "My Health Records",
+    "iWantToFind": "I want to find...",
+    "emergency": "Emergency",
+    "searchPlaceholder": "Search doctors, departments, services..."
+  },
+  "home": {
+    "tagline": "MediCare Excellence Hospital",
+    "heroWords": ["Excellence", "Accountability", "Compassion"],
+    "heroSubtitles": [
+      "World-class cardiac and vascular care with outcomes that redefine what's possible",
+      "Transparent, ethical care — every decision grounded in evidence and respect for life",
+      "Beyond medicine — we are partners in your healing journey, every step of the way"
+    ],
+    "exploreServices": "Explore Services",
+    "findDoctor": "Find a Doctor",
+    "quickAccess": {
+      "bookAppointment": "Book Appointment",
+      "bookDesc": "Schedule a visit online",
+      "emergencyCare": "Emergency Care",
+      "emergencyDesc": "22-MEDIEMG • 24/7",
+      "findDoctor": "Find a Doctor",
+      "findDesc": "Search by specialty",
+      "patientPortal": "Patient Portal",
+      "portalDesc": "Records & appointments"
+    },
+    "services": {
+      "title": "Comprehensive Specialties Under One Roof",
+      "badge": "Our Services",
+      "subtitle": "From routine care to the most complex procedures — our 50+ specialties serve every dimension of your health.",
+      "viewAll": "View All Departments",
+      "learnMore": "Learn more"
+    },
+    "centres": {
+      "badge": "Centres of Excellence",
+      "title": "Where Expertise Meets Innovation",
+      "explore": "Explore"
+    },
+    "doctors": {
+      "badge": "Our Doctors",
+      "title": "Meet Our Specialists",
+      "viewAll": "View All Doctors",
+      "viewProfile": "View Profile",
+      "bookNow": "Book Now",
+      "allDepartments": "All Departments"
+    },
+    "whyUs": {
+      "badge": "Why Choose Us",
+      "title": "Excellence in Every Dimension",
+      "features": [
+        { "title": "Expert Doctors", "desc": "1,500+ super-specialists with global training and decades of combined experience across 50+ disciplines." },
+        { "title": "Advanced Technology", "desc": "da Vinci robotic systems, 3T MRI, hybrid cath labs, CyberKnife — among the first in the region." },
+        { "title": "Patient-Centric Care", "desc": "Multidisciplinary tumor boards, personalized care plans, and a dedicated patient advocate for every admission." },
+        { "title": "World-Class Infrastructure", "desc": "1,000-bed hospital, 250-bed ICU, 30+ operating theatres, and HEPA-filtered isolation suites." }
+      ]
+    },
+    "stats": {
+      "livesTouched": "Lives Touched",
+      "expertDoctors": "Expert Doctors",
+      "specialties": "Specialties",
+      "surgeries": "Surgeries Annually",
+      "icuBeds": "ICU Beds"
+    },
+    "testimonials": {
+      "badge": "Patient Stories",
+      "title": "Lives Transformed"
+    },
+    "blogs": {
+      "badge": "Health Insights",
+      "title": "Latest Health Articles",
+      "allArticles": "All Articles"
+    },
+    "events": {
+      "badge": "Events",
+      "title": "Conferences & Workshops",
+      "register": "Register Now",
+      "closed": "Registration Closed"
+    },
+    "international": {
+      "badge": "International Patients",
+      "title": "Healing Across Borders",
+      "desc": "Patients from 80+ countries trust MediCare for complex procedures at a fraction of Western costs — with quality outcomes that match the world's finest hospitals.",
+      "learnMore": "Learn More",
+      "services": ["Visa Support", "Medical Travel", "Interpreter Services", "Accommodation"],
+      "serviceDescs": [
+        "Medical visa invitation letters and embassy documentation within 24 hours.",
+        "Airport pickup, hotel coordination, and seamless logistics across your entire visit.",
+        "Professional medical interpreters in 40+ languages available round the clock.",
+        "Partnered accommodations at all budget levels within 1km of the hospital."
+      ]
+    },
+    "insurance": {
+      "label": "Accepted Insurance Partners"
+    },
+    "app": {
+      "badge": "MediCare App",
+      "title": "Your Health, At Your Fingertips",
+      "desc": "Book appointments, view test results, consult with doctors via video, manage prescriptions, and access your complete health records — all from one secure app.",
+      "appStore": "App Store",
+      "playStore": "Google Play"
+    },
+    "faq": {
+      "badge": "FAQ",
+      "title": "Common Questions"
+    },
+    "contact": {
+      "badge": "Get In Touch",
+      "title": "We Are Here For You",
+      "contactUs": "Contact Us",
+      "address": "Address",
+      "tollFree": "Toll-Free",
+      "emergency": "Emergency",
+      "opdHours": "OPD Hours"
+    }
+  },
+  "about": {
+    "badge": "About Us",
+    "title": "A Decade of Excellence, A Legacy of Care",
+    "subtitle": "Founded in 2010, MediCare Excellence Hospital has grown from a 200-bed facility to one of the region's most trusted multispecialty hospitals, touching over 12 million lives.",
+    "story": {
+      "badge": "Our Story",
+      "title": "Built on a Belief That Every Life Matters"
+    },
+    "vision": "Our Vision",
+    "mission": "Our Mission",
+    "visionText": "To be the most trusted healthcare institution in the world — where every patient receives the most advanced medical care with the deepest human compassion, regardless of their background or means.",
+    "missionText": "To deliver exceptional, evidence-based healthcare with integrity, innovation, and compassion — empowering our patients with knowledge, our doctors with the best tools, and our community with better health.",
+    "values": {
+      "badge": "Core Values",
+      "title": "What We Stand For"
+    },
+    "leadership": {
+      "badge": "Leadership",
+      "title": "Our Management Team"
+    },
+    "accreditations": {
+      "badge": "Accreditations",
+      "title": "Awards & Recognition"
+    },
+    "milestones": {
+      "badge": "Our Journey",
+      "title": "Milestones Timeline"
+    }
+  },
+  "doctors": {
+    "badge": "Doctor Directory",
+    "title": "Meet Our Specialists",
+    "subtitle": "1,500+ super-specialist doctors trained at the world's finest institutions",
+    "searchPlaceholder": "Search by name or specialty...",
+    "allDepartments": "All Departments",
+    "anyExperience": "Any Experience",
+    "yearsExp": "{{years}}+ Years",
+    "showing": "Showing {{count}} doctor",
+    "showingPlural": "Showing {{count}} doctors",
+    "noResults": "No doctors found matching your search criteria.",
+    "clearFilters": "Clear Filters",
+    "viewProfile": "Profile",
+    "book": "Book",
+    "experience": "Experience",
+    "biography": "Biography",
+    "education": "Education & Training",
+    "awards": "Awards & Recognition",
+    "schedule": "Available Schedule",
+    "bookThisDoctor": "Book This Doctor",
+    "notAvailable": "Not Available",
+    "urgentConsult": "Need Urgent Consultation?",
+    "urgentDesc": "Our tele-consultation service connects you with a specialist within 2 hours.",
+    "teleconsultNow": "Teleconsult Now"
+  },
+  "departments": {
+    "badge": "Our Specialties",
+    "title": "Departments & Specialties",
+    "subtitle": "50+ medical disciplines, each staffed by nationally recognized specialists with access to the most advanced technology.",
+    "viewDepartment": "View Department",
+    "treatments": "Treatments We Offer",
+    "procedures": "Procedures & Diagnostics",
+    "technology": "Technology & Equipment",
+    "specialists": "Our Specialists",
+    "faq": "Frequently Asked Questions",
+    "bookAppointment": "Book an Appointment",
+    "bookDesc": "Consult with our specialists. Same-day appointments often available.",
+    "emergency": "Emergency",
+    "emergencyDesc": "For urgent cases, our emergency team is available 24/7."
+  },
+  "appointment": {
+    "badge": "Book an Appointment",
+    "title": "Schedule Your Visit",
+    "subtitle": "Complete the form below — we'll confirm within 2 hours",
+    "steps": ["Patient Info", "Department", "Doctor", "Date & Time", "Confirm"],
+    "patientInfo": {
+      "title": "Patient Information",
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "John Doe",
+      "phone": "Phone Number",
+      "phonePlaceholder": "+1 234 567 8900",
+      "email": "Email Address",
+      "emailPlaceholder": "john@example.com",
+      "age": "Age",
+      "gender": "Gender",
+      "genderPlaceholder": "Select gender",
+      "male": "Male",
+      "female": "Female",
+      "other": "Other",
+      "preferNot": "Prefer not to say",
+      "message": "Brief Description (Optional)",
+      "messagePlaceholder": "Describe your symptoms or reason for visit...",
+      "continue": "Continue"
+    },
+    "selectDept": {
+      "title": "Select Department",
+      "back": "Back",
+      "continue": "Continue"
+    },
+    "selectDoctor": {
+      "title": "Select Doctor",
+      "back": "Back",
+      "continue": "Continue"
+    },
+    "dateTime": {
+      "title": "Select Date & Time",
+      "preferredDate": "Preferred Date",
+      "preferredTime": "Preferred Time",
+      "back": "Back",
+      "review": "Review"
+    },
+    "confirm": {
+      "title": "Confirm Appointment",
+      "patientName": "Patient Name",
+      "phone": "Phone",
+      "email": "Email",
+      "department": "Department",
+      "doctor": "Doctor",
+      "date": "Date",
+      "time": "Time",
+      "back": "Back",
+      "confirmBtn": "Confirm Appointment"
+    },
+    "success": {
+      "title": "Appointment Confirmed!",
+      "desc": "Your appointment with {{doctor}} has been scheduled.",
+      "emailNote": "{{date}} at {{time}} — A confirmation email will be sent to {{email}}",
+      "backHome": "Back to Home",
+      "newAppointment": "New Appointment"
+    }
+  },
+  "portal": {
+    "title": "Patient Portal",
+    "subtitle": "Sign in to access your health records",
+    "email": "Email Address",
+    "emailPlaceholder": "patient@example.com",
+    "password": "Password",
+    "signIn": "Sign In",
+    "demoNote": "Enter any email & password to access the demo portal.",
+    "welcomeBack": "Welcome back,",
+    "signOut": "Sign Out",
+    "nav": {
+      "appointments": "Appointments",
+      "records": "Medical Records",
+      "prescriptions": "Prescriptions",
+      "reports": "Lab Reports",
+      "bills": "Bills",
+      "insurance": "Insurance"
+    },
+    "stats": {
+      "upcomingVisits": "Upcoming Visits",
+      "activePrescriptions": "Active Prescriptions",
+      "pendingReports": "Pending Reports",
+      "outstandingBills": "Outstanding Bills"
+    },
+    "download": "Download",
+    "addInsurance": "Add Insurance",
+    "noInsurance": "No insurance information on file."
+  },
+  "contact": {
+    "badge": "Contact Us",
+    "title": "We're Here For You",
+    "subtitle": "Reach out for appointments, general queries, or emergency assistance. Our patient support team responds within 2 hours.",
+    "address": "Address",
+    "tollFree": "Toll-Free",
+    "emergencyLabel": "Emergency (24/7)",
+    "emailLabel": "Email",
+    "opdHours": "OPD Hours",
+    "form": {
+      "title": "Send Us a Message",
+      "fullName": "Full Name",
+      "namePlaceholder": "Your name",
+      "phone": "Phone",
+      "phonePlaceholder": "+1 234 567 8900",
+      "email": "Email",
+      "emailPlaceholder": "your@email.com",
+      "department": "Department",
+      "deptPlaceholder": "Select department",
+      "message": "Message",
+      "messagePlaceholder": "How can we help you?",
+      "send": "Send Message",
+      "successTitle": "Message Sent!",
+      "successDesc": "Thank you for reaching out. Our patient support team will respond to your query within 2 hours.",
+      "sendAnother": "Send Another Message"
+    },
+    "deptOptions": {
+      "general": "General Enquiry",
+      "appointment": "Appointments",
+      "billing": "Billing",
+      "cardiology": "Cardiology",
+      "oncology": "Oncology",
+      "neurology": "Neurology",
+      "international": "International Patients",
+      "research": "Research & Academics"
+    }
+  },
+  "research": {
+    "badge": "Research & Academics",
+    "title": "Advancing Medicine, Shaping Futures",
+    "subtitle": "Our research institute drives breakthrough discoveries that improve outcomes for patients worldwide — from bench to bedside and beyond.",
+    "stats": ["Active Clinical Trials", "Publications (2025)", "Fellows Trained", "Research Staff"],
+    "trials": {
+      "badge": "Clinical Trials",
+      "title": "Active Clinical Trials",
+      "enquire": "Enquire"
+    },
+    "fellowships": {
+      "badge": "Fellowships",
+      "title": "Training Programs",
+      "apply": "Apply"
+    },
+    "publications": {
+      "badge": "Publications",
+      "title": "Recent Publications"
+    }
+  },
+  "international": {
+    "badge": "International Patients",
+    "title": "Healing Across Borders",
+    "subtitle": "Patients from 80+ countries trust MediCare for complex procedures at world-class quality. We handle every detail of your medical journey so you can focus entirely on your recovery.",
+    "startJourney": "Start Your Journey",
+    "bookTeleconsult": "Book Teleconsultation",
+    "services": {
+      "badge": "Services",
+      "title": "Everything Taken Care Of"
+    },
+    "estimator": {
+      "badge": "Cost Estimator",
+      "title": "Estimate Your Treatment Cost",
+      "subtitle": "Get an indicative cost range. A precise quote will be shared after reviewing your medical reports.",
+      "procedure": "Procedure",
+      "procedurePlaceholder": "Select procedure",
+      "country": "Your Country",
+      "countryPlaceholder": "Select country",
+      "getEstimate": "Get Estimate",
+      "indicativeRange": "Indicative range in USD. Includes surgery, anesthesia, hospital stay, and basic follow-up. Excludes travel and accommodation.",
+      "requestQuote": "Request Detailed Quote"
+    }
+  },
+  "careers": {
+    "badge": "Careers",
+    "title": "Build Your Career With Us",
+    "subtitle": "Join a team of 5,000+ healthcare professionals dedicated to delivering the finest patient care. Grow, learn, and make a difference every single day.",
+    "searchPlaceholder": "Search jobs...",
+    "allDepartments": "All Departments",
+    "positions": "{{count}} position found",
+    "positionsPlural": "{{count}} positions found",
+    "applyNow": "Apply Now",
+    "noResults": "No positions found matching your search.",
+    "clearFilters": "Clear Filters",
+    "experience": "experience",
+    "form": {
+      "title": "Apply for {{title}}",
+      "fullName": "Full Name",
+      "namePlaceholder": "Your full name",
+      "email": "Email",
+      "emailPlaceholder": "email@example.com",
+      "phone": "Phone",
+      "phonePlaceholder": "+1 234 567 8900",
+      "yearsExp": "Years of Experience",
+      "expPlaceholder": "Select experience",
+      "coverLetter": "Cover Letter",
+      "coverPlaceholder": "Why are you the right fit for this role?",
+      "resumeNote": "Resume upload would go here (PDF, DOC)",
+      "submit": "Submit Application",
+      "successTitle": "Application Submitted!",
+      "successDesc": "Your application for {{title}} has been received.",
+      "successNote": "Our HR team will review your application and contact you within 5 business days.",
+      "done": "Done"
+    }
+  },
+  "footer": {
+    "tagline": "A decade of excellence and respect for life. Committed to delivering world-class healthcare with compassion and precision.",
+    "tollFree": "Toll-Free",
+    "email": "Email",
+    "emergency": "Emergency",
+    "available247": "24/7 Available",
+    "copyright": "© 2026 MediCare Excellence Hospital. All rights reserved.",
+    "terms": "Terms & Conditions",
+    "privacy": "Privacy Policy",
+    "sitemap": "Sitemap"
+  },
+  "common": {
+    "home": "Home",
+    "backToHome": "Back to Home",
+    "learnMore": "Learn More",
+    "viewAll": "View All",
+    "readMore": "Read More",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "back": "Back",
+    "next": "Next",
+    "loading": "Loading...",
+    "error": "Something went wrong.",
+    "notFound": "Page Not Found",
+    "bookAppointment": "Book Appointment",
+    "emergency": "Emergency",
+    "search": "Search",
+    "darkMode": "Toggle dark mode",
+    "language": "Language"
+  }
+}

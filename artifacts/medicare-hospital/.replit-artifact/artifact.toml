@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "MediCare Excellence Hospital"
+version = "1.0.0"
+id = "artifacts/medicare-hospital"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 23890
+
+[services.development]
+run = "pnpm --filter @workspace/medicare-hospital run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/medicare-hospital", "run", "build" ]
+publicDir = "artifacts/medicare-hospital/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "23890"
+BASE_PATH = "/"

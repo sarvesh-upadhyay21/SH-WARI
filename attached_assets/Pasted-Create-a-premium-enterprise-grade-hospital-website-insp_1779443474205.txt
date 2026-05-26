@@ -1,0 +1,322 @@
+Create a premium, enterprise-grade hospital website inspired by the design quality, user experience, navigation structure, responsiveness, and visual appeal of Reliance Foundation Hospital (RF Hospital). Do NOT copy content, branding, logos, images, or copyrighted assets. Create a completely original healthcare brand and design while maintaining a similar level of professionalism and functionality.
+
+Hospital Name: MediCare Excellence Hospital
+
+Tagline:
+"Your Journey to Health, Our Commitment to Care"
+
+TECH STACK:
+- Next.js 15 (App Router)
+- React 19
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Lucide Icons
+- Responsive Mobile-First Design
+- SEO Optimized
+- Accessibility (WCAG)
+- Server Components where appropriate
+- Clean folder structure
+- Production-ready code
+
+DESIGN REQUIREMENTS:
+- Modern healthcare UI
+- Premium corporate hospital appearance
+- White background with blue and cyan accents
+- Smooth animations and micro-interactions
+- Glassmorphism effects where suitable
+- Rounded cards and modern shadows
+- Sticky navigation
+- Mega menu
+- Elegant typography
+- Mobile, tablet, laptop, and 4K responsive layouts
+- Fast loading and optimized images
+
+CREATE THE FOLLOWING PAGES:
+
+1. HOME PAGE
+
+Hero Section:
+- Full-width hero slider
+- Hospital introduction
+- CTA buttons:
+  - Book Appointment
+  - Find Doctor
+  - Explore Services
+- Emergency helpline banner
+
+Quick Access Cards:
+- Book Appointment
+- Emergency Care
+- Find Doctor
+- Patient Portal
+
+Services Section:
+Display cards for:
+- Heart & Vascular Care
+- Cancer Care
+- Brain & Nerve Care
+- Orthopedics
+- Spine Care
+- Gastroenterology
+- Urology
+- Nephrology
+- Pediatrics
+- Women's Health
+- Critical Care
+- Robotic Surgery
+
+Centres of Excellence:
+Interactive card slider with:
+- Cardiology
+- Oncology
+- Neurology
+- Orthopedics
+- Organ Transplant
+- Robotic Surgery
+- Emergency Medicine
+
+Doctor Showcase:
+- Doctor image
+- Name
+- Department
+- Experience
+- Qualification
+- Book Appointment button
+
+Doctor Search Filters:
+- Department
+- Specialty
+- Experience
+
+Why Choose Us:
+- Expert Doctors
+- Advanced Technology
+- Patient-Centric Care
+- World-Class Infrastructure
+
+Animated Statistics:
+- 12 Million Lives Touched
+- 1500+ Doctors
+- 50+ Specialties
+- 5000+ Surgeries
+- 250+ ICU Beds
+
+Patient Testimonials:
+Auto-playing carousel with ratings
+
+Health Blogs Section:
+- Featured articles
+- Categories
+- Read More buttons
+
+Events Section:
+- Conferences
+- Medical Workshops
+- Research Events
+
+International Patients:
+- Visa Support
+- Medical Travel
+- Interpreter Services
+- Accommodation Assistance
+
+Research & Academics:
+- Clinical Research
+- Fellowships
+- Publications
+- Medical Education
+
+Insurance Partners:
+Auto-scrolling logo carousel
+
+Mobile App Promotion:
+- App screenshots
+- App Store button
+- Google Play button
+
+FAQ Section:
+Accordion component
+
+Contact Preview:
+- Address
+- Phone
+- Email
+- Embedded Map
+
+2. ABOUT US PAGE
+
+Sections:
+- Hospital Overview
+- Vision
+- Mission
+- Core Values
+- Leadership Team
+- Infrastructure
+- Awards & Accreditations
+- Milestones Timeline
+
+3. DOCTORS PAGE
+
+Features:
+- Doctor Directory
+- Search by Name
+- Filter by Department
+- Filter by Specialty
+- Doctor Detail Page
+
+Doctor Detail Includes:
+- Biography
+- Education
+- Experience
+- Awards
+- Publications
+- Available Schedule
+- Appointment Form
+
+4. DEPARTMENTS PAGE
+
+Department Listing:
+- Cardiology
+- Oncology
+- Neurology
+- Orthopedics
+- Gastroenterology
+- Nephrology
+- Urology
+- Pediatrics
+- Dermatology
+- ENT
+- Pulmonology
+
+Department Detail Page:
+- Overview
+- Treatments
+- Procedures
+- Technology
+- Doctors
+- FAQs
+
+5. APPOINTMENT PAGE
+
+Multi-Step Appointment Form
+
+Step 1:
+Patient Information
+
+Step 2:
+Department Selection
+
+Step 3:
+Doctor Selection
+
+Step 4:
+Date & Time
+
+Step 5:
+Confirmation
+
+Include:
+- Validation
+- Success Modal
+- Email Confirmation UI
+
+6. PATIENT PORTAL PAGE
+
+Dashboard Design:
+- Appointments
+- Medical Records
+- Prescriptions
+- Reports
+- Bills
+- Insurance
+
+7. RESEARCH & ACADEMICS PAGE
+
+- Research Programs
+- Clinical Trials
+- Publications
+- Fellowships
+- Medical Training
+- Conferences
+
+8. INTERNATIONAL PATIENTS PAGE
+
+Features:
+- Travel Assistance
+- Visa Guidance
+- Cost Estimator
+- Online Consultation
+- Interpreter Support
+- Accommodation Services
+
+9. CAREERS PAGE
+
+Features:
+- Job Listings
+- Search Jobs
+- Apply Form
+- Department Filters
+
+10. CONTACT PAGE
+
+- Contact Form
+- Google Maps
+- Hospital Locations
+- Emergency Contacts
+- Support Information
+
+ADVANCED FEATURES:
+
+- Sticky Header
+- Mega Navigation Menu
+- Breadcrumbs
+- Scroll Progress Indicator
+- Back To Top Button
+- Skeleton Loaders
+- Loading States
+- Dark Mode
+- Search Modal
+- SEO Meta Tags
+- Open Graph Tags
+- Sitemap Setup
+- Robots.txt
+- Form Validation
+- Reusable Components
+- Clean Architecture
+
+COMPONENTS TO BUILD:
+
+- Navbar
+- Mega Menu
+- Hero Slider
+- Service Card
+- Doctor Card
+- Department Card
+- Testimonial Slider
+- Blog Card
+- Event Card
+- FAQ Accordion
+- Contact Form
+- Footer
+- Appointment Wizard
+- Statistics Counter
+- Insurance Carousel
+
+PROJECT STRUCTURE:
+
+Generate complete production-ready Next.js folder structure including:
+- app/
+- components/
+- hooks/
+- lib/
+- data/
+- types/
+- public/
+- SEO setup
+- dummy API data
+- reusable UI components
+
+OUTPUT REQUIREMENTS:
+
+Generate a fully functional, modern, premium healthcare website that matches the quality of top hospital websites, with beautiful UI/UX, complete responsiveness, professional healthcare branding, and production-ready code.

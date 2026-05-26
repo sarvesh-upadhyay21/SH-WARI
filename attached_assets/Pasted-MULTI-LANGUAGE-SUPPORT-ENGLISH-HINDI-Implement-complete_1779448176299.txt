@@ -1,0 +1,137 @@
+MULTI-LANGUAGE SUPPORT (ENGLISH + HINDI)
+
+Implement complete bilingual support across the entire website.
+
+Requirements:
+
+1. Languages Supported:
+   - English (Default)
+   - Hindi (हिन्दी)
+
+2. Language Switcher:
+   - Place a language dropdown in the top header/navbar.
+   - Dropdown options:
+     - English
+     - हिन्दी
+   - Use a Select component with globe/language icon.
+   - Selected language should persist using localStorage.
+
+3. Global Translation System:
+   - Use i18next + react-i18next (or next-intl for Next.js App Router).
+   - Create translation files:
+
+     /locales/en/common.json
+     /locales/hi/common.json
+
+4. Complete Website Translation:
+   All pages and components must be translated:
+
+   Pages:
+   - Home
+   - About Us
+   - Departments
+   - Doctors
+   - Centres of Excellence
+   - Research & Academics
+   - International Patients
+   - Careers
+   - Contact Us
+   - Appointment Booking
+   - Patient Portal
+
+   Components:
+   - Navbar
+   - Footer
+   - Hero Section
+   - Service Cards
+   - Doctor Cards
+   - Appointment Forms
+   - Contact Forms
+   - FAQs
+   - Testimonials
+   - Blogs
+   - Events
+   - Buttons
+   - Labels
+   - Validation Messages
+
+5. Dynamic Language Switching:
+   - When user selects हिन्दी:
+     - Entire website instantly changes to Hindi.
+     - All menus, buttons, forms, labels, pages, headings, descriptions, and footer content must display Hindi translations.
+
+   - When user selects English:
+     - Entire website instantly changes to English.
+
+   - No page refresh required.
+
+6. Example Translations:
+
+   English:
+   Home
+   About Us
+   Doctors
+   Book Appointment
+   Emergency Care
+   Contact Us
+
+   Hindi:
+   होम
+   हमारे बारे में
+   डॉक्टर
+   अपॉइंटमेंट बुक करें
+   आपातकालीन सेवा
+   संपर्क करें
+
+7. SEO Support:
+   - Add hreflang support.
+   - Generate metadata for both English and Hindi pages.
+   - Support language-specific URLs:
+
+     /en
+     /hi
+
+   Examples:
+     /en/about
+     /hi/about
+
+8. Language Detection:
+   - First visit:
+     Default English.
+
+   - Returning visitor:
+     Load previously selected language from localStorage.
+
+9. Fonts:
+   - English: Inter
+   - Hindi: Noto Sans Devanagari
+
+10. Accessibility:
+   - Language switcher keyboard accessible.
+   - Proper lang attributes:
+       lang="en"
+       lang="hi"
+
+11. Translation Architecture:
+
+   Create:
+
+   src/
+   ├── locales/
+   │   ├── en/
+   │   │   └── common.json
+   │   └── hi/
+   │       └── common.json
+   ├── i18n/
+   │   ├── config.ts
+   │   └── LanguageProvider.tsx
+
+12. Generate:
+   - Complete translation setup.
+   - Translation JSON files.
+   - Language switcher component.
+   - Middleware for language routing.
+   - Example translations for all pages.
+   - Production-ready multilingual implementation.
+
+The website must behave like major international hospital websites where selecting Hindi immediately translates the entire website and selecting English switches everything back to English.
