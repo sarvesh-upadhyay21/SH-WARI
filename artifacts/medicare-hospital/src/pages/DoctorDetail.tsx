@@ -66,7 +66,7 @@ export default function DoctorDetail() {
               </div>
               <div className="flex flex-wrap gap-6 text-white/70 text-sm">
                 <span className="flex items-center gap-1.5"><Clock size={14} />{doctor.experience}</span>
-                <span className="flex items-center gap-1.5"><MapPin size={14} />{doctor.hospital}</span>
+                {/* <span className="flex items-center gap-1.5"><MapPin size={14} />{doctor.hospital}</span> */}
               </div>
             </div>
             <div className="flex flex-col gap-3">
