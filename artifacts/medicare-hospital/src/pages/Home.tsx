@@ -20,7 +20,7 @@ import { blogs } from "@/data/blogs";
 import { events } from "@/data/events";
 import { faqs } from "@/data/faqs";
 import { stats } from "@/data/stats";
-import slide1 from "../../assets/images/slider1.jpg";
+import slide from "../../assets/images/slider1.jpg";
 import slide2 from "../../assets/images/slider1.jpg";
 import slide3 from "../../assets/images/slider1.jpg";
 
@@ -29,7 +29,7 @@ const iconMap: Record<string, React.ElementType> = {
 };
 
 function HeroSlider() {
-  const slides = [slide1, slide2, slide3];
+  const slides = [slide, slide2, slide3];
   const { t } = useTranslation();
   const [current, setCurrent] = useState(0);
   const words: string[] = t("home.heroWords", { returnObjects: true }) as string[];
@@ -42,12 +42,7 @@ function HeroSlider() {
     const timer = setInterval(() => setCurrent(c => (c + 1) % SLIDE_COUNT), 5000);
     return () => clearInterval(timer);
   }, []);
-
-  // useEffect(() => {
-  //   const timer = setInterval(() => setCurrent(c => (c + 1) % words.length), 5000);
-  //   return () => clearInterval(timer);
-  // }, [words.length]);
-
+ 
   return (
     <div className="relative h-[85vh] min-h-[520px] overflow-hidden">
       <AnimatePresence mode="wait">
