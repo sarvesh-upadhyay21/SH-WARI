@@ -8,7 +8,7 @@ import { Dialog, DialogContent } from "@/components/ui/dialog";
 import { Input } from "@/components/ui/input";
 import LanguageSwitcher from "@/components/layout/LanguageSwitcher";
 import { departments } from "@/data/departments";
-
+import Logo from "../../../assets/Hospital_Logo.png";
 interface NavbarProps {
   dark: boolean;
   toggleDark: () => void;
@@ -22,6 +22,8 @@ export default function Navbar({ dark, toggleDark }: NavbarProps) {
   const [searchOpen, setSearchOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const [location, navigate] = useLocation();
+
+  const logo = Logo;
 
   const navItems = [
     {
@@ -124,20 +126,26 @@ export default function Navbar({ dark, toggleDark }: NavbarProps) {
       </div>
 
       <header
-        className={`sticky top-0 z-50 transition-all duration-300 ${
-          scrolled ? "bg-white/95 dark:bg-slate-900/95 backdrop-blur shadow-md" : "bg-white dark:bg-slate-900"
-        }`}
+        className={`sticky top-0 z-50 transition-all duration-300 ${scrolled ? "bg-white/95 dark:bg-slate-900/95 backdrop-blur shadow-md" : "bg-white dark:bg-slate-900"
+          }`}
         onMouseLeave={() => setActiveMenu(null)}
       >
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex items-center justify-between h-16">
             <Link href="/" className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl bg-primary flex items-center justify-center">
-                <span className="text-white font-bold text-sm">M+</span>
+              <div className="flex-shrink-0">
+                <img
+                  src={logo}
+                  alt="Saroja Hospital Logo"
+                  className="h-12 w-auto object-contain"
+                />
               </div>
+
               <div className="hidden sm:block">
-                <div className="font-bold text-primary text-base leading-tight font-serif">Saroja Hospital</div>
-                <div className="text-[10px] text-muted-foreground uppercase tracking-widest">Hospital</div>
+                <h1 className="text-lg font-bold text-primary leading-tight">
+                  Saroja Hospital
+                </h1>
+
               </div>
             </Link>
 
