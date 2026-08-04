@@ -1,0 +1,166 @@
+export const doctors = [
+  {
+    id: "1",
+    name: "Dr. Prabhakar Upadhyay",
+    department: "Gastroenterology & General Surgery",
+    specialty: "Endoscopy, Colonoscopy & Laparoscopic Surgery",
+    experience: "10+ Years",
+    qualifications: ["M.B.B.S.", "M.S.", "FALS"],
+    bio: "Dr. Prabhakar Upadhyay specializes in Endoscopy, Colonoscopy, Laparoscopic Surgery, Piles, Fissure, Fistula, Hernia, Gall Bladder Stone and Appendix treatment. He is committed to providing advanced surgical and gastrointestinal care with a patient-centered approach.",
+    education: [
+      {
+        year: "",
+        degree: "M.B.B.S.",
+        institution: "Recognized Medical University",
+      },
+      {
+        year: "",
+        degree: "M.S. (General Surgery)",
+        institution: "Recognized Medical University",
+      },
+      {
+        year: "",
+        degree: "FALS",
+        institution: "Advanced Laparoscopic Surgery Training",
+      },
+    ],
+    awards: ["Excellence in Gastro & Surgical Care"],
+    availability: {
+      Mon: ["03:00 PM", "06:00 PM"],
+      Wed: ["03:00 PM", "06:00 PM"],
+      Fri: ["03:00 PM", "06:00 PM"],
+    },
+    image: "/images/doctors/dr-prabhakar-upadhyay.jpg",
+  },
+
+  {
+    id: "2",
+    name: "Dr. Nikita Tiwari",
+    department: "Internal Medicine",
+    specialty: "Physician & Critical Care Specialist",
+    experience: "5+ Years",
+    qualifications: ["M.B.B.S.", "M.D."],
+    bio: "Dr. Nikita Tiwari provides comprehensive medical care for Diabetes, Thyroid Disorders, Blood Pressure, Heart Disease, TB, UTI, Allergy, Asthma and general medical conditions.",
+    education: [
+      {
+        year: "",
+        degree: "M.B.B.S.",
+        institution: "Recognized Medical University",
+      },
+      {
+        year: "",
+        degree: "M.D. (Medicine)",
+        institution: "Recognized Medical University",
+      },
+    ],
+    awards: ["Patient Care Excellence"],
+    availability: {
+      Mon: ["03:00 PM", "06:00 PM"],
+      Wed: ["03:00 PM", "06:00 PM"],
+      Fri: ["03:00 PM", "06:00 PM"],
+    },
+    image: "/images/doctors/dr-nikita-tiwari.jpg",
+  },
+
+  {
+    id: "3",
+    name: "Dr. Rajesh Verma",
+    department: "Gastroenterology",
+    specialty: "Digestive & Liver Disorders",
+    experience: "12+ Years",
+    qualifications: ["M.B.B.S.", "M.D.", "D.M. Gastroenterology"],
+    bio: "Expert in digestive disorders, acidity, acid reflux, constipation, abdominal pain and liver diseases.",
+    education: [],
+    awards: ["Best Gastro Specialist"],
+    availability: {
+      Tue: ["10:00 AM", "01:00 PM"],
+      Thu: ["10:00 AM", "01:00 PM"],
+    },
+    image: "/images/doctors/doctor-3.jpg",
+  },
+
+  {
+    id: "4",
+    name: "Dr. Anjali Mishra",
+    department: "General Medicine",
+    specialty: "Diabetes & Thyroid Care",
+    experience: "8+ Years",
+    qualifications: ["M.B.B.S.", "M.D."],
+    bio: "Specialized in Diabetes Management, Thyroid Disorders, Hypertension and preventive healthcare.",
+    education: [],
+    awards: ["Trusted Physician Award"],
+    availability: {
+      Mon: ["10:00 AM", "01:00 PM"],
+      Sat: ["10:00 AM", "01:00 PM"],
+    },
+    image: "/images/doctors/doctor-4.jpg",
+  },
+
+  {
+    id: "5",
+    name: "Dr. Vivek Singh",
+    department: "General Surgery",
+    specialty: "Hernia & Gall Bladder Surgery",
+    experience: "14+ Years",
+    qualifications: ["M.B.B.S.", "M.S."],
+    bio: "Experienced surgeon specializing in Hernia Repair, Gall Bladder Stone Surgery, Appendix Surgery and minimally invasive procedures.",
+    education: [],
+    awards: ["Surgical Excellence Award"],
+    availability: {
+      Tue: ["03:00 PM", "06:00 PM"],
+      Fri: ["03:00 PM", "06:00 PM"],
+    },
+    image: "/images/doctors/doctor-5.jpg",
+  },
+
+  {
+    id: "6",
+    name: "Dr. Pooja Sharma",
+    department: "Pulmonology",
+    specialty: "TB, Allergy & Asthma Care",
+    experience: "9+ Years",
+    qualifications: ["M.B.B.S.", "M.D. Pulmonary Medicine"],
+    bio: "Provides expert treatment for Tuberculosis (TB), Allergy, Asthma and respiratory disorders.",
+    education: [],
+    awards: ["Respiratory Care Excellence"],
+    availability: {
+      Wed: ["10:00 AM", "01:00 PM"],
+      Sat: ["10:00 AM", "01:00 PM"],
+    },
+    image: "/images/doctors/doctor-6.jpg",
+  },
+
+  {
+    id: "7",
+    name: "Dr. Amit Tiwari",
+    department: "Urology",
+    specialty: "Kidney Stone & Prostate Care",
+    experience: "11+ Years",
+    qualifications: ["M.B.B.S.", "M.S.", "M.Ch Urology"],
+    bio: "Specialized in Kidney Stone Management, Prostate Disorders, UTI treatment and advanced urological care.",
+    education: [],
+    awards: ["Excellence in Urology"],
+    availability: {
+      Mon: ["04:00 PM", "07:00 PM"],
+      Thu: ["04:00 PM", "07:00 PM"],
+    },
+    image: "/images/doctors/doctor-7.jpg",
+  },
+
+  {
+    id: "8",
+    name: "Dr. Neha Gupta",
+    department: "Internal Medicine",
+    specialty: "Heart, BP & Preventive Care",
+    experience: "10+ Years",
+    qualifications: ["M.B.B.S.", "M.D."],
+    bio: "Focused on Blood Pressure Management, Heart Disease Prevention and chronic disease care.",
+    education: [],
+    awards: ["Preventive Healthcare Award"],
+    availability: {
+      Tue: ["11:00 AM", "02:00 PM"],
+      Fri: ["11:00 AM", "02:00 PM"],
+    },
+    image: "/images/doctors/doctor-8.jpg",
+  },
+];
